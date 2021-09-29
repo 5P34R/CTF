@@ -1,4 +1,4 @@
 # caas 
 ## picoctf web
 
-[get_flag](/solve.py)
+[solve.py](solve.py)
