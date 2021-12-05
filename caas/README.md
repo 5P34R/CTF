@@ -16,6 +16,10 @@ app.get('/cowsay/:message', (req, res) => {
  
  Here we can see exec is used which is one of the dangerous function and other factor is there is no input sanitation are used if a user wants to execute system commmads it becomes easy.
 
+## POC
+
+As we know about the vuln we can put a semi-colan ```;``` to gain arbitrary command execution
+
 ## Exploitaion
 
 Here i Made a simple python script using cmd module
