@@ -14,7 +14,7 @@ app.get('/cowsay/:message', (req, res) => {
   exec(`/usr/games/cowsay ${req.params.message}`, {timeout: 5000}, (error, stdout) => {
  ```
  
- Here we can see exec is used which is one of the dangerous function and other factor is there is no input sanitation are used if a user wants to execute system commmads it becomes easy.
+ Here we can see exec is used which is one of the dangerous function and other factor is there is no input sanitations are applied. If a user wants to execute system commmads it becomes easy.
 
 ## POC
 
