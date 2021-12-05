@@ -22,7 +22,7 @@ As we know about the vuln we can put a semi-colan ```;``` to gain arbitrary comm
 
 ## Exploitaion
 
-Here i Made a simple python script using cmd module
+A simple python script using cmd module
 ```python
 import requests
 import cmd
