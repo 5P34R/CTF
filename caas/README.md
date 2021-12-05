@@ -5,7 +5,8 @@
 
 
 ### Its a web challenge from PicoCTF
-We got a webpage with a input field which do cowsay commad with input value when input event is triggered.
+We got a webpage with an input field that does cowsay command with input value when the input event is triggered.
+
 
 ## Vulnerable Code
 
